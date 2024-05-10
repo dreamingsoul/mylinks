@@ -1,0 +1,312 @@
+*{
+    margin: 0;
+    padding: 0;
+    width:auto;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background: url(media/animation_night_sky_by_jknewlife_dcxuq07.gif);
+    background-color: black;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-attachment: fixed;
+    color: #fff;
+}
+h1{
+    font-family: 'Special Elite', sans-serif;
+    text-align-last: center;
+    margin-top: -20;
+}
+.title img{
+width: 100px;
+padding-top: 25px;
+padding-left: 30px;
+}
+
+nav ul li a img{
+    list-style: none;
+    display: inline-block;
+    margin:0;
+    cursor: pointer;
+}
+nav{
+    padding-left: 1250px;
+    margin-top: -30;
+}
+nav ul li {
+    display: inline;
+}
+.navbar img{
+    width: 30px;
+    padding-left: 20px;
+    transition: transform .8s;
+}
+.navbar img:hover {
+    transform: scale(1.2);
+    filter: contrast(3);
+}
+.box{
+    background-color:cadetblue;
+    width: 850px;
+    height: 250px;
+    padding-top:100px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    border-radius: 20px;
+    border: 5px solid azure;
+    opacity: 60%;
+    margin-top: 80;
+    margin-left: 280; 
+}
+.box img{
+    width: 160px;
+    align-items: center;
+    transition: transform .8s;
+}
+.box img:hover {
+    transform: scale(1.2);
+    filter: contrast(5);
+}
+.title img{
+    align-items: center;
+    transition: transform .8s;
+}
+.title img:hover {
+    transform: scale(1);
+    filter: contrast(5);
+}
+
+h2{
+    text-align: center;
+    padding-bottom: 60px;
+    padding-top: 30px;
+    font-size: 30px;
+    font-family: 'Julee', sans-serif; 
+
+}
+.music{
+    padding-top: 150px;
+    text-align: center;
+}
+#music{
+    margin-bottom: 100;
+}
+iframe{
+    display:inline;
+    cursor: pointer;
+}
+
+
+/* Popup container */
+.popup {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+/* The actual popup (appears on top) */
+.popup .popuptext {
+  visibility: hidden;
+  width: 160px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -80px;
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle this class when clicking on the popup container (hide and show the popup) */
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;} 
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}
+
+.copyright{
+    width: 100%;
+    text-align:center;
+    padding: 10px 0;
+    background:none;
+    font-family: 'Gamja Flower', sans-serif;
+    font-weight: 800;
+    border-color: bisque;
+    border-radius: 10;
+    color: #000;  
+    margin-top: auto;    
+}
+.copyright i{
+    color: #fff;
+}
+p11{
+    color: #fff;
+    font-size: 25px;
+}
+
+p11 a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.music2{
+    display: none;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 600px){
+
+    *{
+    margin: 0;
+    padding: 0;
+    width:auto;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background: url(media/animation_night_sky_by_jknewlife_dcxuq07.gif);
+    background-color: black;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 2100px;
+    max-width: auto;
+    display: flex;
+    flex-direction: column;
+    background-attachment: fixed;
+    color: #fff;
+}
+.title img{
+     width: 50px;
+     padding-top: 15px;
+     padding-left: 15px;
+}    
+
+h1{
+    font-family: 'Special Elite', sans-serif;
+    text-align-last: center;
+    margin-top: 20;
+    font-size: 25px;
+}
+
+nav ul li a img{
+    list-style: none;
+    display: inline-block;
+    margin:0;
+    cursor: pointer;
+}
+nav{
+    padding-left: 300px;
+    margin-top: -60;
+}
+nav ul li {
+    display: inline;
+}
+.navbar img{
+    width: 10px;
+    padding-left: 10px;
+    transition: transform .8s;
+}
+.navbar img:hover {
+    transform: scale(1.2);
+    filter: contrast(3);
+}
+
+.box{
+    background:none;
+    align-self: center;
+    width: 110px;
+    height: 510px;
+    padding-top:0px;
+    padding-bottom: 0px;
+    border-radius: 20px;
+    border: none;
+    opacity: 60%;
+    margin-top: 80;
+    margin-left:30; 
+}
+.box img{
+    width: 100px;
+    padding-right: 10px;
+     padding-left: 10px;
+    align-items: center;
+    transition: transform .8s;
+}
+.box img:hover {
+    transform: scale(1.2);
+    filter: contrast(5);
+}
+h4{
+    margin-top: -200;
+    text-align-last: center;    
+    padding-bottom: 60px;
+    padding-top: 30px;
+    font-size: 20px;
+    font-family: 'Julee', sans-serif; 
+    }
+    
+.music{
+    display: none;
+    }
+
+.music2{
+    display: inline-block;
+    padding-top: 150px;
+    text-align: center;
+}
+iframe{
+    display:inline;
+    cursor: pointer;
+    padding-bottom: 10px;
+}
+
+
+h3{
+    text-align-last: center;
+    padding-bottom: 60px;
+    padding-top: 30px;
+    font-size: 20px;
+    font-family: 'Julee', sans-serif; 
+    }
+
+
